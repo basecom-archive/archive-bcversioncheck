@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Marius Landwehr" => "landwehr@basecom.de" }
   s.platform     = :ios, '5.0'
-  s.source       = { :git => "http://EXAMPLE/BCVersionCheck.git", :tag => "1.0.0Cl" }
+  s.source       = { :git => "https://github.com/basecom/BCVersionCheck.git", :tag => "1.0.0" }
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
   s.requires_arc = true
 end
